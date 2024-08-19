@@ -35,6 +35,7 @@
   "name":"LegacyOfTheFallenHero",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"sprite_1","path":"sprites/sprite_1/sprite_1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
