@@ -1,12 +1,9 @@
 if(place_meeting(x,y,obj_player)){
-	show_message(room_get_name(room));
-	
 	try {
-		room_goto_next();
+		room_goto(room_name);
 	} catch(_exception) {
-		room_goto_previous();
+		room_goto(room);
 	}
-	
-	obj_player.x = 320;
-	obj_player.y = 320;
+	obj_player.x = player_x_position;
+	obj_player.y = player_y_position;
 }
