@@ -1,24 +1,41 @@
-var _random_direction = irandom_range(1, 4);
-var _random_step = irandom_range(0,1);
+/// @description Função executada à todo momento
 
-var _left = irandom(1);
-var _right = irandom(1);
-var _up = irandom(1);
-var _down = irandom(1);
+// Verifica se o jogador está dentro do raio de visão do mob
+var _target_x = obj_player.x;
+var _target_y = obj_player.y;
+var _dist = point_distance(x, y, _target_x, _target_y);
 
-var _xspeed = velocity * (_right - _left);
-var _yspeed = velocity * (_down - _up);
-
-if(place_meeting(x + _xspeed, y, obj_wall)){
-	_xspeed = 0;	
+if (_dist <= max(room_width, room_height)) {
+    // Verifica se o mob pode ver o jogador sem obstruções
+    if (!collision_line(x, y, _target_x, _target_y, obj_wall, true, false)) {
+        // O mob vê o jogador e começa a persegui-lo
+		is_idle = false;
+	    alarm[0] = -1; // Desativa o alarme
+		if(velocity < 0) 
+			velocity *= -1;
+		is_chasing = true;
+    }
 }
 
-if(place_meeting(x, y + _yspeed, obj_wall)){
-	_yspeed = 0;	
+// Se o mob estiver perseguindo o jogador
+if (is_chasing) {
+    // Limpa o caminho anterior
+    path_clear_points(path);
+
+    // Gera um caminho do mob até o jogador usando o grid
+    if (mp_grid_path(grid, path, x, y, _target_x, _target_y, true)) {
+        path_start(path, velocity, path_action_stop, true); // O mob começa a seguir o caminho gerado
+    } else {
+        // Se não conseguir encontrar um caminho, ele para
+        path_end();
+    }
+
+    // Exibe a mensagem no console que o player foi detectado
+    show_debug_message("Jogador foi detectado por "+string(self.id));
 }
 
-if(current_time - last_time > 1000){
-	x += _xspeed;
-	y += _yspeed;
-	last_time = current_time;
+// Padrão de movimento caso o mob não persiga o jogador
+if(is_idle) {
+	scr_linear_repulse_movement("vertical", self, obj_wall);
 }
+
