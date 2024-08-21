@@ -28,11 +28,13 @@
     {"name":"inst_7FFAC666","path":"rooms/room_1_1/room_1_1.yy",},
     {"name":"inst_63FC37AE","path":"rooms/room_1_1/room_1_1.yy",},
     {"name":"inst_3794E45D","path":"rooms/room_1_1/room_1_1.yy",},
+    {"name":"inst_5205CC1A","path":"rooms/room_1_1/room_1_1.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_4959DC4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4959DC4E","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":64.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5205CC1A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5205CC1A","objectId":{"name":"obj_gui","path":"objects/obj_gui/obj_gui.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":64.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4959DC4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4959DC4E","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":64.0,},
         {"$GMRInstance":"v1","%Name":"inst_706C0571","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_706C0571","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"idle_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"scr_linear_vertical_movement","path":"scripts/scr_linear_vertical_movement/scr_linear_vertical_movement.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"scr_linear_vertical_movement",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":64.0,},

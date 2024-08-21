@@ -34,6 +34,7 @@
   },
   "name":"LegacyOfTheFallenHero",
   "resources":[
+    {"id":{"name":"obj_gui","path":"objects/obj_gui/obj_gui.yy",},},
     {"id":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_teleport","path":"objects/obj_teleport/obj_teleport.yy",},},
