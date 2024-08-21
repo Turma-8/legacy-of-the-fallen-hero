@@ -1,4 +1,4 @@
-/// @description Função executada à cada 1 segundo
+/// @description Evento executado à cada 1 segundo
 
 //Desativa e Reativa a movimentação padrão do mob
 if(is_idle == true){

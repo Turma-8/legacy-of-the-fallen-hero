@@ -1,4 +1,4 @@
-/// @description Função executada ao objeto ser destruído
+/// @description Evento executado ao objeto ser destruído
 
 // Libera os recursos do grid e do path
 mp_grid_destroy(grid);

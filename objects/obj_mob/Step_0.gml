@@ -1,4 +1,4 @@
-/// @description Função executada à todo momento
+/// @description Evento executado à todo momento
 
 // Desativando o alarm[0] do mob para testes (ative-o comentando a linha abaixo)
 alarm[0] = -1;
