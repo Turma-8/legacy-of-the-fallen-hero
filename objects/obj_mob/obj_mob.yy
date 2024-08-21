@@ -30,6 +30,9 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"velocity","filters":[],"listItems":[],"multiselect":false,"name":"velocity","rangeEnabled":true,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"idle_movement","filters":[
+        "GMScript",
+      ],"listItems":[],"multiselect":false,"name":"idle_movement","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"health_points","filters":[],"listItems":[],"multiselect":false,"name":"health_points","rangeEnabled":true,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"can_defend","filters":[],"listItems":[],"multiselect":false,"name":"can_defend","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"can_fly","filters":[],"listItems":[],"multiselect":false,"name":"can_fly","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},

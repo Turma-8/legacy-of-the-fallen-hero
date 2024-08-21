@@ -1,5 +1,8 @@
 /// @description Função executada à todo momento
 
+// Desativando o alarm[0] do mob para testes (ative-o comentando a linha abaixo)
+alarm[0] = -1;
+
 // Verifica se o jogador está dentro do raio de visão do mob
 var _target_x = obj_player.x;
 var _target_y = obj_player.y;
@@ -29,13 +32,12 @@ if (is_chasing) {
         // Se não conseguir encontrar um caminho, ele para
         path_end();
     }
-
-    // Exibe a mensagem no console que o player foi detectado
-    show_debug_message("Jogador foi detectado por "+string(self.id));
 }
 
 // Padrão de movimento caso o mob não persiga o jogador
 if(is_idle) {
-	scr_linear_repulse_movement("vertical", self, obj_wall);
+	if(idle_movement != noone){
+		idle_movement(self, obj_wall);
+	}
 }
 
