@@ -24,7 +24,17 @@ if (_dist <= max(room_width, room_height)) {
 if (is_chasing) {
     // Limpa o caminho anterior
     path_clear_points(path);
-
+	mp_grid_clear_all(grid);
+	
+	// Atualiza a posição de todos obstáculos no caminho
+	mp_grid_add_instances(grid, obj_wall, true);
+	
+	for(var _i = 0; _i < instance_number(obj_mob); _i++){
+		var _found_instance = instance_find(obj_mob,_i);	
+		if(_found_instance != self.id)
+			mp_grid_add_instances(grid, _found_instance, true);
+	}
+	
     // Gera um caminho do mob até o jogador usando o grid
     if (mp_grid_path(grid, path, x, y, _target_x, _target_y, true)) {
         path_start(path, velocity, path_action_stop, true); // O mob começa a seguir o caminho gerado
