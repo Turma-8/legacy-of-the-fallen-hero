@@ -1,5 +1,5 @@
 /// @description Aplica um movimento linear de virar à esquerda à um objeto
-/// @author João Victor
+/// @author Arthur
 
 //Faça o objeto se mover em linha reta para a esquerda
 //ao colidir com outro objeto, vire à esquerda
