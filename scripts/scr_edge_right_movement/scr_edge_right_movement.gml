@@ -1,5 +1,5 @@
 /// @description Aplica um movimento linear de virar à direita à um objeto
-/// @author Nome do Desenvolvedor
+/// @author Luiz Gustavo
 
 //Faça o objeto se mover em linha reta para a direita
 //ao colidir com outro objeto, vire à direita
