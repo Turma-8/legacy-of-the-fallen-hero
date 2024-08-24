@@ -1,5 +1,5 @@
 /// @description Aplica um movimento circular à um objeto
-/// @author Nome do Desenvolvedor
+/// @author Pedro Vinícius
 
 //Faça o objeto se mover em círculos (defina o raio dentro da própria função)
 //ao colidir com outro objeto, continue seu movimento
