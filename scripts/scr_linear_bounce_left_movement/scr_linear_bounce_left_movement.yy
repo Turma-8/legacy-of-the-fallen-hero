@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_linear_bounce_movement",
+  "%Name":"scr_linear_bounce_left_movement",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_linear_bounce_movement",
+  "name":"scr_linear_bounce_left_movement",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
