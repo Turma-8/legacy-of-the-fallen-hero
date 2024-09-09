@@ -57,6 +57,7 @@
     {"id":{"name":"scr_linear_diagonal_movement","path":"scripts/scr_linear_diagonal_movement/scr_linear_diagonal_movement.yy",},},
     {"id":{"name":"scr_linear_horizontal_movement","path":"scripts/scr_linear_horizontal_movement/scr_linear_horizontal_movement.yy",},},
     {"id":{"name":"scr_linear_vertical_movement","path":"scripts/scr_linear_vertical_movement/scr_linear_vertical_movement.yy",},},
+    {"id":{"name":"scr_save_system","path":"scripts/scr_save_system/scr_save_system.yy",},},
     {"id":{"name":"scr_square_movement","path":"scripts/scr_square_movement/scr_square_movement.yy",},},
     {"id":{"name":"scr_triangle_movement","path":"scripts/scr_triangle_movement/scr_triangle_movement.yy",},},
     {"id":{"name":"spr_button_continue_ptbr","path":"sprites/spr_button_continue_ptbr/spr_button_continue_ptbr.yy",},},

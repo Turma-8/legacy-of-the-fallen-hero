@@ -12,7 +12,7 @@ if (mouse_x > x && mouse_x < x + self.sprite_width &&
 				room_goto(rm_room_1_1);
 				break;
 			case "continue":
-				show_message("Continue o jogo!");
+				load_game();
 				break;
 			case "endgame":
 				game_end();
