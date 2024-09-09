@@ -4,6 +4,9 @@ function scr_linear_vertical_movement(_object_to_move, _object_to_repulse){
 	var _yspeed = 0;
 	var _velocity = _object_to_move.velocity;
 	
+	if(_velocity < 0) _object_to_move.direction = 90;
+	else if(_velocity > 0) _object_to_move.direction = 270;
+	
 	_yspeed = _velocity;
 	if(place_meeting(_object_to_move.x, _object_to_move.y + _yspeed, _object_to_repulse)){
 		_yspeed *= -1;
