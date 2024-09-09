@@ -51,5 +51,4 @@ if(is_idle) {
 	}
 }
 
-show_debug_message(self.direction);
 scr_change_movement_sprite(self, [sprite_up_movement, sprite_right_movement, sprite_down_movement, sprite_left_movement]);

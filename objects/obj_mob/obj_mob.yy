@@ -51,6 +51,18 @@
     {"$GMObjectProperty":"v1","%Name":"sprite_left_movement","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"sprite_left_movement","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_mob_left","path":"sprites/spr_mob_left/spr_mob_left.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_mob_left","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_idle_up","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_idle_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_idle_right","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_idle_right","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_idle_down","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_idle_down","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_idle_left","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_idle_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
