@@ -40,6 +40,30 @@
     {"$GMObjectProperty":"v1","%Name":"can_fly","filters":[],"listItems":[],"multiselect":false,"name":"can_fly","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"can_attack","filters":[],"listItems":[],"multiselect":false,"name":"can_attack","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"can_block","filters":[],"listItems":[],"multiselect":false,"name":"can_block","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_up_movement","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_up_movement","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_up","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_right_movement","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_right_movement","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_right","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_down_movement","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_down_movement","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_down","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_left_movement","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_left_movement","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_left","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_idle_up","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_idle_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_idle_down","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_idle_down","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_idle_right","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_idle_right","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_idle_left","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_idle_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

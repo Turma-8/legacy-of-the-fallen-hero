@@ -7,6 +7,29 @@ var _dash = keyboard_check_pressed(vk_shift);
 var _xspeed = 0;
 var _yspeed = 0;
 
+//Verifica qual foi a última tecla de movimento apertada
+if(_left) last_movement_key_pressed = "left";
+else if(_right) last_movement_key_pressed = "right";
+else if(_up) last_movement_key_pressed = "up";
+else if(_down) last_movement_key_pressed = "down";
+else last_movement_key_pressed = "";
+
+//Altera a direção do personagem com base nisso
+switch(last_movement_key_pressed){
+	case "up":
+		direction = 90;
+		break;
+	case "right":
+		direction = 0;
+		break;
+	case "down":
+		direction = 270;
+		break;
+	case "left":
+		direction = 180;
+		break;
+}
+
 if(can_dash && _dash && alarm[0] == -1){
 	can_dash = false;
 	alarm[0] = dash_cooldown;
@@ -30,3 +53,10 @@ if(place_meeting(x, y + _yspeed, obj_wall)){
 
 x += _xspeed;
 y += _yspeed;
+
+//Troca de Sprites quando o Personagem estiver ou não se movendo
+if(last_movement_key_pressed == ""){
+	sprite_index = spr_player;	
+} else {
+	scr_change_movement_sprite(self, [sprite_up_movement, sprite_right_movement, sprite_down_movement, sprite_left_movement]);
+}
