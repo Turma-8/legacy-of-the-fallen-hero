@@ -39,6 +39,7 @@
     {"$GMObjectProperty":"v1","%Name":"can_sprint","filters":[],"listItems":[],"multiselect":false,"name":"can_sprint","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"can_attack","filters":[],"listItems":[],"multiselect":false,"name":"can_attack","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"can_move","filters":[],"listItems":[],"multiselect":false,"name":"can_move","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"can_view","filters":[],"listItems":[],"multiselect":false,"name":"can_view","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"sprite_up_movement","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"sprite_up_movement","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_mob_up","path":"sprites/spr_mob_up/spr_mob_up.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_mob_up","varType":5,},

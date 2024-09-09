@@ -8,16 +8,18 @@ var _target_x = obj_player.x;
 var _target_y = obj_player.y;
 var _dist = point_distance(x, y, _target_x, _target_y);
 
-if (_dist <= max(room_width, room_height)) {
-    // Verifica se o mob pode ver o jogador sem obstruções
-    if (!collision_line(x, y, _target_x, _target_y, obj_wall, true, false)) {
-        // O mob vê o jogador e começa a persegui-lo
-		is_idle = false;
-	    alarm[0] = -1; // Desativa o alarme
-		if(velocity < 0) 
-			velocity *= -1;
-		is_chasing = true;
-    }
+//Verifica se o mob não está cego
+if(can_view){
+	if (_dist <= max(room_width, room_height)) {
+	    // Verifica se o mob pode ver o jogador sem obstruções
+	    if (!collision_line(x, y, _target_x, _target_y, obj_wall, true, false)) {
+	        // O mob vê o jogador e começa a persegui-lo
+			is_idle = false;
+			if(velocity < 0) 
+				velocity *= -1;
+			is_chasing = true;
+	    }
+	}
 }
 
 // Se o mob estiver perseguindo o jogador
