@@ -36,6 +36,9 @@ if(can_dash && _dash && alarm[0] == -1){
 }
 
 if(alarm[0] > dash_cooldown - 10){
+	var _pacing = instance_create_layer(x,y,"Instances",obj_pacing);
+	_pacing.sprite = sprite_index;
+	_pacing.pacing_rate = 0.15;
 	_xspeed = (dash_distance + velocity) * (_right - _left);
 	_yspeed = (dash_distance + velocity) * (_down - _up);
 } else {
