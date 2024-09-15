@@ -1,4 +1,5 @@
-switch(sprite_get_name(sprite_index)){
+if(place_meeting(x,y,obj_player)){
+	switch(sprite_get_name(sprite_index)){
 		case "spr_sword":
 			show_message("Agora você pode atacar (com o botão esq do mouse).");
 			obj_player.can_attack = true;
@@ -10,6 +11,6 @@ switch(sprite_get_name(sprite_index)){
 		case "default":
 			show_message("Agora você faz algo (só não sei o quê).");
 			break;
+	}
+	instance_destroy();
 }
-
-instance_destroy();

@@ -9,4 +9,4 @@ if(obj_player.can_dash == false){
 draw_text(x,y+25,"Interaja com o bau e outros objetos usando a tecla E");
 draw_text(x,y+45,"Use o cristal para salvar o jogo manualmente");
 draw_text(x,y+65,"Passe pelo portal acima para ver os inimigos do jogo.");
-draw_text(x,y+85,"No momento, o jogo salva automaticamente ao sair.");
+draw_text(x,y+85,"Use a tecla '1', Mouse Esq. e Mouse Dir. para atacar.");
