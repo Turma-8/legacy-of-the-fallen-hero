@@ -51,12 +51,17 @@ if(place_meeting(x, y + _yspeed, obj_wall)){
 	_yspeed = 0;	
 }
 
-x += _xspeed;
-y += _yspeed;
+if((_right and _left) or (_up and _down)){
+	last_movement_key_pressed = "";
+	direction = 270;
+} else {
+	x += _xspeed;
+	y += _yspeed;
+}
 
 //Troca de Sprites quando o Personagem estiver ou não se movendo
 if(last_movement_key_pressed == ""){
-	sprite_index = spr_player;	
+	scr_change_movement_sprite(self, [sprite_idle_up, sprite_idle_right, sprite_idle_down, sprite_idle_left]);
 } else {
 	scr_change_movement_sprite(self, [sprite_up_movement, sprite_right_movement, sprite_down_movement, sprite_left_movement]);
 }

@@ -55,23 +55,23 @@
       ],"listItems":[],"multiselect":false,"name":"sprite_left_movement","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_left","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sprite_idle_up","filters":[
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"sprite_idle_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"sprite_idle_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_idle_up","path":"sprites/spr_player_idle_up/spr_player_idle_up.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_idle_up","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sprite_idle_down","filters":[
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"sprite_idle_down","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"sprite_idle_down","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_idle_down","path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_idle_down","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sprite_idle_right","filters":[
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"sprite_idle_right","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"sprite_idle_right","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_idle_right","path":"sprites/spr_player_idle_right/spr_player_idle_right.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_idle_right","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sprite_idle_left","filters":[
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"sprite_idle_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"sprite_idle_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_idle_left","path":"sprites/spr_player_idle_left/spr_player_idle_left.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_idle_left","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player",
-    "path":"sprites/spr_player/spr_player.yy",
+    "name":"spr_player_idle_down",
+    "path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
