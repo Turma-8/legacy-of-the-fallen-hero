@@ -5,6 +5,7 @@ if(can_move){
 	var _right = keyboard_check(ord("D"));
 	var _up = keyboard_check(ord("W"));
 	var _down = keyboard_check(ord("S"));
+	var _loss_life = keyboard_check(ord("Q"));
 	
 	//Controles de Movimentação Avançada e Combate
 	var _dash = keyboard_check_pressed(vk_shift);
@@ -83,14 +84,21 @@ if(can_move){
 		alarm[1] = attack_cooldown;
 		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "sword");
 	}
-	if(_shoot and can_move){
+	if(_shoot and can_move and ammo_points > 0){
+		ammo_points--;
 		can_move = false;
 		alarm[1] = bow_cooldown;
 		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "bow");
 	}
-	if(_magic and can_move){
+	if(_magic and can_move and mana_points > 0){
+		mana_points--;
 		can_move = false;
 		alarm[1] = magic_cooldown;
 		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "staff");
+	}
+	if(_loss_life){
+		health_points--;
+		can_move = false;
+		alarm[1] = magic_cooldown;
 	}
 }
