@@ -11,6 +11,7 @@ if(can_move){
 	var _dash = keyboard_check_pressed(vk_shift);
 	var _attack = mouse_check_button_pressed(mb_left);
 	var _shoot = mouse_check_button_pressed(mb_right);
+	var _block = keyboard_check_pressed(vk_space);
 	var _magic = keyboard_check_pressed(ord("1"));
 
 	var _xspeed = 0;
@@ -95,6 +96,11 @@ if(can_move){
 		can_move = false;
 		alarm[1] = magic_cooldown;
 		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "staff");
+	}
+	if(_block and can_move){
+		can_move = false;
+		scr_change_combat_sprite(self, [sprite_block_up, sprite_block_right, sprite_block_down, sprite_block_left], "shield");
+		alarm[1] = block_cooldown;
 	}
 	if(_loss_life){
 		health_points--;

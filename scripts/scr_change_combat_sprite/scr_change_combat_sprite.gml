@@ -11,9 +11,10 @@ function scr_change_combat_sprite(_object, _combat_sprites, _weapon_name){
 				_weapon.sprite = spr_sword_attack_up;
 				break;
 			case "staff":
-				_weapon.sprite = spr_staff_attack_up
+				_weapon.sprite = spr_staff_attack_up;
 				break;
 			case "shield":
+				_weapon.sprite = spr_staff_block_up;
 				break;
 			case "bow":
 				_weapon.sprite = spr_bow_attack_up;
@@ -29,6 +30,7 @@ function scr_change_combat_sprite(_object, _combat_sprites, _weapon_name){
 				_weapon.sprite = spr_staff_attack_right;
 				break;
 			case "shield":
+				_weapon.sprite = spr_staff_block_right;
 				break;
 			case "bow":
 				_weapon.sprite = spr_bow_attack_right;
@@ -44,6 +46,7 @@ function scr_change_combat_sprite(_object, _combat_sprites, _weapon_name){
 				_weapon.sprite = spr_staff_attack_down;
 				break;
 			case "shield":
+				_weapon.sprite = spr_staff_block_down;
 				break;
 			case "bow":
 				_weapon.sprite = spr_bow_attack_down;
@@ -59,6 +62,7 @@ function scr_change_combat_sprite(_object, _combat_sprites, _weapon_name){
 				_weapon.sprite = spr_staff_attack_left;
 				break;
 			case "shield":
+				_weapon.sprite = spr_staff_block_left;
 				break;
 			case "bow":
 				_weapon.sprite = spr_bow_attack_left;

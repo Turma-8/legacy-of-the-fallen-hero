@@ -38,6 +38,7 @@
     {"$GMObjectProperty":"v1","%Name":"attack_cooldown","filters":[],"listItems":[],"multiselect":false,"name":"attack_cooldown","rangeEnabled":true,"rangeMax":60.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"magic_cooldown","filters":[],"listItems":[],"multiselect":false,"name":"magic_cooldown","rangeEnabled":true,"rangeMax":60.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"bow_cooldown","filters":[],"listItems":[],"multiselect":false,"name":"bow_cooldown","rangeEnabled":true,"rangeMax":120.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"block_cooldown","filters":[],"listItems":[],"multiselect":false,"name":"block_cooldown","rangeEnabled":true,"rangeMax":60.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"40","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"can_move","filters":[],"listItems":[],"multiselect":false,"name":"can_move","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"can_dash","filters":[],"listItems":[],"multiselect":false,"name":"can_dash","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"can_jump","filters":[],"listItems":[],"multiselect":false,"name":"can_jump","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
@@ -82,6 +83,18 @@
     {"$GMObjectProperty":"v1","%Name":"sprite_attack_left","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"sprite_attack_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_attack_right","path":"sprites/spr_player_attack_right/spr_player_attack_right.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_attack_right","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_block_up","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_block_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_block_up","path":"sprites/spr_player_block_up/spr_player_block_up.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_block_up","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_block_down","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_block_down","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_block_down","path":"sprites/spr_player_block_down/spr_player_block_down.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_block_down","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_block_right","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_block_right","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_block_right","path":"sprites/spr_player_block_right/spr_player_block_right.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_block_right","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_block_left","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"sprite_block_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_block_left","path":"sprites/spr_player_block_left/spr_player_block_left.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_block_left","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
