@@ -22,7 +22,8 @@
     {"name":"inst_51E3F4F9","path":"rooms/rm_room_1_2/rm_room_1_2.yy",},
     {"name":"inst_47BB1F2C","path":"rooms/rm_room_1_2/rm_room_1_2.yy",},
     {"name":"inst_5826AD2A","path":"rooms/rm_room_1_2/rm_room_1_2.yy",},
-    {"name":"inst_74B40912","path":"rooms/rm_room_1_2/rm_room_1_2.yy",},
+    {"name":"inst_6480C1EA","path":"rooms/rm_room_1_2/rm_room_1_2.yy",},
+    {"name":"inst_730F5387","path":"rooms/rm_room_1_2/rm_room_1_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -63,8 +64,11 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"idle_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"scr_square_movement","path":"scripts/scr_square_movement/scr_square_movement.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"scr_square_movement",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"can_view","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":128.0,},
-        {"$GMRInstance":"v1","%Name":"inst_74B40912","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74B40912","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"idle_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"scr_circle_movement","path":"scripts/scr_circle_movement/scr_circle_movement.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"scr_circle_movement",},
+        {"$GMRInstance":"v1","%Name":"inst_6480C1EA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6480C1EA","objectId":{"name":"obj_spider","path":"objects/obj_spider/obj_spider.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"idle_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"scr_linear_horizontal_movement","path":"scripts/scr_linear_horizontal_movement/scr_linear_horizontal_movement.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"scr_linear_horizontal_movement",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"can_view","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":128.0,},
+        {"$GMRInstance":"v1","%Name":"inst_730F5387","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_730F5387","objectId":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"can_view","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":224.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
