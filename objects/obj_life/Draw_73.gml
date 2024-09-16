@@ -1,1 +1,1 @@
-draw_text(x+10,y+15,"x"+string(obj_player.health_points));
+draw_text(x+10,y+15,show_text);

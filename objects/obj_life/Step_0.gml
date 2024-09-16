@@ -1,7 +1,8 @@
 depth = -1;
+
 if(obj_player.health_points % 4 == 0 and instance_number(obj_life) <= 1){
-	for(var _i = 0; _i < (obj_player.health_points / 4); _i++){
-		var _life = instance_create_layer(x + (spacing * _i),y,"Instances",obj_life);
+	for(var _i = 1; _i < (obj_player.health_points / 4); _i++){
+		var _life = instance_create_layer(x + (spacing * (_i)),y,"Instances",obj_life);
 		_life.hp = 4;
 	}
 }
@@ -31,6 +32,9 @@ if (instance_number(obj_life) >= 1) {
 	var _instance_3 = instance_find(obj_life, instance_number(obj_life) - 3);
 	var _instance_2 = instance_find(obj_life, instance_number(obj_life) - 4);
 	var _instance_1 = instance_find(obj_life, instance_number(obj_life) - 5);
+	
+	//Debug para ver a quantidade de vida do personagem
+	_instance_1.show_text = obj_player.health_points;
 	
 	switch(obj_player.health_points){
 		case 20:
@@ -86,6 +90,15 @@ if (instance_number(obj_life) >= 1) {
 			break;
 		case 3:
 			_instance_1.hp = 3;
+			break;
+		case 2:
+			_instance_1.hp = 2;
+			break;
+		case 1:
+			_instance_1.hp = 1;
+			break;
+		case 0:
+			_instance_1.hp = 0;
 			break;
 	}
 }

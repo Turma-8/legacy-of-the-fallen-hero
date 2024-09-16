@@ -34,6 +34,7 @@
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"life_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_life_point","path":"sprites/spr_player_life_point/spr_player_life_point.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_life_point","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"spacing","filters":[],"listItems":[],"multiselect":false,"name":"spacing","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"23","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"show_text","filters":[],"listItems":[],"multiselect":false,"name":"show_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
