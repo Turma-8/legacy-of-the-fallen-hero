@@ -8,8 +8,8 @@
   "name":"obj_teleport",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_doors",
+    "path":"folders/Objects/obj_doors.yy",
   },
   "parentObjectId":null,
   "persistent":false,

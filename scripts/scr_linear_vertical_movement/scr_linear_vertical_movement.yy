@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_linear_vertical_movement",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"scr_movement",
+    "path":"folders/Scripts/scr_movement.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

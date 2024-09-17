@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_save_system",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"scr_system",
+    "path":"folders/Scripts/scr_system.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

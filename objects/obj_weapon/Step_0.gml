@@ -1,15 +1,27 @@
 sprite_index = sprite;	
 
-if(image_index == 1) {
-	switch(weapon_name){
-	case "sword":
+if(weapon_name == "sword"){
 		damage = 1;
 		if(used_by_enemy){
 			if(place_meeting(x,y,obj_player)){
 				obj_player.health_points -= damage;	
 			}
+		} else {
+			if(place_meeting(x,y,obj_mob)){
+				var _mob_attacked_id = instance_place(x, y, obj_mob);
+				with (_mob_attacked_id) {
+					health_points -= 1;
+					if (health_points <= 0) {
+						instance_create_depth(x,y,-1,obj_death);
+						instance_destroy();
+					}
+				}
+			}
 		}
-		break;
+}
+
+if(image_index == 1) {
+	switch(weapon_name){
 	case "staff":
 		var _magic = instance_create_layer(x,y,"Instances",obj_boss_magic_1);
 		_magic.direction = direction;
@@ -32,5 +44,5 @@ if(image_index == 1) {
 }
 
 if (image_index >= image_number - 1) {
-    instance_destroy();
+    instance_destroy(self);
 }

@@ -1,8 +1,5 @@
 /// @description Evento executado à todo momento
 
-// Desativando o alarm[0] do mob para testes (ative-o comentando a linha abaixo)
-alarm[0] = -1;
-
 // Verifica se o jogador está dentro do raio de visão do mob
 var _target_x = obj_player.x;
 var _target_y = obj_player.y;

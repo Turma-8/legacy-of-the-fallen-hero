@@ -8,8 +8,8 @@
   "name":"obj_pacing",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_effects",
+    "path":"folders/Objects/obj_effects.yy",
   },
   "parentObjectId":null,
   "persistent":true,

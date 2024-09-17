@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_change_combat_sprite",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"scr_sprite",
+    "path":"folders/Scripts/scr_sprite.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

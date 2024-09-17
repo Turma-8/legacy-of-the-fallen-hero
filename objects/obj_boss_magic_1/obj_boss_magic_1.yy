@@ -9,8 +9,8 @@
   "name":"obj_boss_magic_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_items",
+    "path":"folders/Objects/obj_items.yy",
   },
   "parentObjectId":null,
   "persistent":false,

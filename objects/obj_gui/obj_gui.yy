@@ -8,8 +8,8 @@
   "name":"obj_gui",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_gui",
+    "path":"folders/Objects/obj_gui.yy",
   },
   "parentObjectId":null,
   "persistent":false,

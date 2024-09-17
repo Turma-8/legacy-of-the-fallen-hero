@@ -9,8 +9,8 @@
   "name":"obj_chest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_items",
+    "path":"folders/Objects/obj_items.yy",
   },
   "parentObjectId":{
     "name":"obj_wall",
