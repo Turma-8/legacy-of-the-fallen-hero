@@ -1,6 +1,7 @@
 if(from_enemy and place_meeting(x,y,obj_player)){
-	obj_player.health_points -= damage;	
-	instance_destroy(self);
+	if(!obj_player.is_invencible)
+		obj_player.health_points -= damage;	
+	instance_destroy();
 } else if(!from_enemy and place_meeting(x,y,obj_mob)){
 	if(place_meeting(x,y,obj_mob)){
 		var _mob_attacked_id = instance_place(x, y, obj_mob);
@@ -12,4 +13,5 @@ if(from_enemy and place_meeting(x,y,obj_player)){
 			}
 		}
 	}
+	instance_destroy();
 }

@@ -2,7 +2,6 @@
 
 // Dropa (ou não) um item aleatório
 var _random_item = irandom(4);
-show_message(_random_item);
 switch(_random_item){
 	case 1:
 		var _mana = instance_create_depth(x,y,-1,obj_item);

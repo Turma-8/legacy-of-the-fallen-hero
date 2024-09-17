@@ -1,3 +1,22 @@
+show_debug_message(alarm[2])
+
+if(is_invencible){
+	// Atualiza a transparência (alpha) baseado na direção
+	image_alpha += alpha_direction * alpha_speed;
+	// Se atingir o valor máximo ou mínimo, inverte a direção
+	if (image_alpha >= alpha_max) {
+	    alpha_direction = -1;  // Diminui a transparência
+	}
+	else if (image_alpha <= alpha_min) {
+	    alpha_direction = 1;  // Aumenta a transparência
+	}
+	if(alarm[2] == -1){
+		alarm[2] = iframe;
+	}
+} else {
+	image_alpha = 1;	
+}
+
 if(can_move){
 	
 	//Controles básicos de Movimentação

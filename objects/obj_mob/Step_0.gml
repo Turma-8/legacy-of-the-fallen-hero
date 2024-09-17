@@ -5,6 +5,11 @@ var _target_x = obj_player.x;
 var _target_y = obj_player.y;
 var _dist = point_distance(x, y, _target_x, _target_y);
 
+if(place_meeting(x,y,obj_player) and !obj_player.is_invencible){
+	obj_player.health_points -= 1;
+	obj_player.is_invencible = true;
+}
+
 //Verifica se o mob não está cego
 if(can_view){
 	if (_dist <= max(room_width, room_height)) {
