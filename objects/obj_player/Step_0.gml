@@ -24,7 +24,6 @@ if(can_move){
 	var _right = keyboard_check(ord("D"));
 	var _up = keyboard_check(ord("W"));
 	var _down = keyboard_check(ord("S"));
-	var _loss_life = keyboard_check(ord("Q"));
 	
 	//Controles de Movimentação Avançada e Combate
 	var _dash = keyboard_check_pressed(vk_shift);
@@ -120,10 +119,5 @@ if(can_move){
 		can_move = false;
 		scr_change_combat_sprite(self, [sprite_block_up, sprite_block_right, sprite_block_down, sprite_block_left], "shield");
 		alarm[1] = block_cooldown;
-	}
-	if(_loss_life){
-		health_points--;
-		can_move = false;
-		alarm[1] = magic_cooldown;
 	}
 }
