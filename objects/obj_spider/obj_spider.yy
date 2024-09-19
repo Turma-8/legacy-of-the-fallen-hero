@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_spider",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_spider",
   "overriddenProperties":[
@@ -10,6 +13,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_right_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_spider_down","path":"sprites/spr_spider_down/spr_spider_down.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_spider_down",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_left_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_spider_down","path":"sprites/spr_spider_down/spr_spider_down.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_spider_down",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_down_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_spider_down","path":"sprites/spr_spider_down/spr_spider_down.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_spider_down",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"can_view","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
     "name":"obj_mobs",
@@ -32,7 +36,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"web_cooldown","filters":[],"listItems":[],"multiselect":false,"name":"web_cooldown","rangeEnabled":true,"rangeMax":300.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":1,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

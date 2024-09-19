@@ -11,12 +11,20 @@ if(place_meeting(x,y,obj_player)){
 	audio_play_sound(snd_pick_item, 1, false);
 	switch(sprite_get_name(sprite_index)){
 		case "spr_sword":
-			show_message("Agora você pode atacar (com o botão esq do mouse).");
+			show_message("Agora você pode atacar (com o botão esquerdo do mouse).");
 			obj_player.can_attack = true;
 			break;
 		case "spr_boots":
 			show_message("Agora você pode se impulsionar (com a tecla SHIFT).");
 			obj_player.can_dash = true;
+			break;
+		case "spr_bow_attack_right":
+			show_message("Agora você pode atirar flechas (com o botão direito do mouse).");
+			obj_player.can_shoot = true;
+			break;
+		case "spr_staff_attack_right":
+			show_message("Agora você pode usar magias (com a tecla '1').");
+			obj_player.can_magic = true;
 			break;
 		case "spr_arrow":
 			if(obj_player.ammo_points < 99)
@@ -31,7 +39,7 @@ if(place_meeting(x,y,obj_player)){
 				obj_player.health_points += 1;
 			break;
 		case "default":
-			show_message("Agora você faz algo (só não sei o quê).");
+			show_message("Agora você ganha algo (só não sei o quê).");
 			break;
 	}
 	instance_destroy();

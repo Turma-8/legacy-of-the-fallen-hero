@@ -12,4 +12,4 @@ is_idle = true // Indica se o mob está em estado neutro
 // Inicializa a variável de perseguição
 is_chasing = false; // Indica se o mob está perseguindo o player
 
-alarm[1] = frozen_time;
+alarm[0] = frozen_time;
