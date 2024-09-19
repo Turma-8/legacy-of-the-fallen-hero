@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_change_life_sprite",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_change_life_sprite",
+  "parent":{
+    "name":"scr_sprite",
+    "path":"folders/Scripts/scr_sprite.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

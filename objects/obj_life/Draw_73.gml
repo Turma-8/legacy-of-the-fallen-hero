@@ -1,1 +1,0 @@
-draw_text(x+10,y+15,show_text);

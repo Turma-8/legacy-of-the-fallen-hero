@@ -8,6 +8,7 @@ switch(sprite_get_name(sprite_index)){
 }
 
 if(place_meeting(x,y,obj_player)){
+	audio_play_sound(snd_pick_item, 1, false);
 	switch(sprite_get_name(sprite_index)){
 		case "spr_sword":
 			show_message("Agora você pode atacar (com o botão esq do mouse).");

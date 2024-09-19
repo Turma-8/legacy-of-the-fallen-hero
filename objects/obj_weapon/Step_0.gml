@@ -1,6 +1,7 @@
 sprite_index = sprite;	
 
 if(weapon_name == "sword"){
+		audio_play_sound(snd_sword,1,false);
 		damage = 1;
 		if(used_by_enemy){
 			if(place_meeting(x,y,obj_player)){
@@ -26,6 +27,7 @@ if(weapon_name == "sword"){
 if(image_index == 1) {
 	switch(weapon_name){
 	case "staff":
+		audio_play_sound(snd_staff,1,false);
 		var _magic = instance_create_layer(x,y,"Instances",obj_boss_magic_1);
 		_magic.direction = direction;
 		_magic.image_angle = direction;
@@ -34,6 +36,8 @@ if(image_index == 1) {
 		}
 		break;
 	case "bow":
+		audio_play_sound(snd_bow,1,false);
+		audio_play_sound(snd_arrow,1,false);
 		var _arrow = instance_create_layer(x,y,"Instances",obj_arrow);
 		_arrow.direction = direction;
 		_arrow.image_angle = direction;

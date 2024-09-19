@@ -29,6 +29,7 @@
     {"name":"inst_51F96751","path":"rooms/rm_room_1_1/rm_room_1_1.yy",},
     {"name":"inst_7FB7B5DD","path":"rooms/rm_room_1_1/rm_room_1_1.yy",},
     {"name":"inst_5AF8EF21","path":"rooms/rm_room_1_1/rm_room_1_1.yy",},
+    {"name":"inst_479C795B","path":"rooms/rm_room_1_1/rm_room_1_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -86,6 +87,9 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_teleport","path":"objects/obj_teleport/obj_teleport.yy",},"propertyId":{"name":"player_x_position","path":"objects/obj_teleport/obj_teleport.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"48",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_teleport","path":"objects/obj_teleport/obj_teleport.yy",},"propertyId":{"name":"player_y_position","path":"objects/obj_teleport/obj_teleport.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"320",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":608.0,"y":288.0,},
+        {"$GMRInstance":"v1","%Name":"inst_479C795B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_479C795B","objectId":{"name":"obj_music_box","path":"objects/obj_music_box/obj_music_box.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_music_box","path":"objects/obj_music_box/obj_music_box.yy",},"propertyId":{"name":"music_to_play","path":"objects/obj_music_box/obj_music_box.yy",},"resource":{"name":"snd_ice_dungeon","path":"sounds/snd_ice_dungeon/snd_ice_dungeon.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_ice_dungeon",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":160.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Wall","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Wall","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":20,"TileCompressedData":[
           -21,-2147483648,-8,7,-2,0,-8,7,-10,-2147483648,2,82,83,-6,-2147483648,-2,22,-4,-2147483648,1,0,-13,-2147483648,
