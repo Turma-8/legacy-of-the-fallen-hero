@@ -15,7 +15,6 @@ if(weapon_name == "sword"){
 					audio_play_sound(hitted_sound,1,false);
 					health_points -= 1;
 					if (health_points <= 0) {
-						audio_play_sound(death_sound,1,false);
 						instance_create_depth(x,y,-1,obj_death);
 						instance_destroy();
 					}

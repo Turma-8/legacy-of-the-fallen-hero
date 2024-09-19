@@ -1,4 +1,5 @@
 /// @description Evento executado ao objeto ser destruído
+audio_play_sound(death_sound, 1, false);
 
 // Dropa (ou não) um item aleatório
 var _random_item = irandom(4);
