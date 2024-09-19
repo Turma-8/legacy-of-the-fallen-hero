@@ -4,14 +4,17 @@ if(weapon_name == "sword"){
 		damage = 1;
 		if(used_by_enemy){
 			if(place_meeting(x,y,obj_player)){
+				audio_play_sound(obj_player.hitted_sound,1,false);
 				obj_player.health_points -= damage;	
 			}
 		} else {
 			if(place_meeting(x,y,obj_mob)){
 				var _mob_attacked_id = instance_place(x, y, obj_mob);
 				with (_mob_attacked_id) {
+					audio_play_sound(hitted_sound,1,false);
 					health_points -= 1;
 					if (health_points <= 0) {
+						audio_play_sound(death_sound,1,false);
 						instance_create_depth(x,y,-1,obj_death);
 						instance_destroy();
 					}

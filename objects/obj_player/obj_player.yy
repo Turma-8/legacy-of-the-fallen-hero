@@ -7,6 +7,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":3,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_player",
@@ -98,6 +99,12 @@
     {"$GMObjectProperty":"v1","%Name":"sprite_block_left","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"sprite_block_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_player_block_left","path":"sprites/spr_player_block_left/spr_player_block_left.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_player_block_left","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"death_sound","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"death_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"hitted_sound","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"hitted_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_hitted","path":"sounds/snd_hitted/snd_hitted.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_hitted","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

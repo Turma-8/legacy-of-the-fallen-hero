@@ -1,2 +1,3 @@
-/// @description Evento executado à cada 1 segundo
-sprite_index = spr_death;
+if(is_frozen){
+	is_frozen = false;	
+}

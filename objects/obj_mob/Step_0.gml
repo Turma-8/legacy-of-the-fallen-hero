@@ -6,6 +6,7 @@ var _target_y = obj_player.y;
 var _dist = point_distance(x, y, _target_x, _target_y);
 
 if(place_meeting(x,y,obj_player) and !obj_player.is_invencible){
+	audio_play_sound(obj_player.hitted_sound,1,false);
 	obj_player.health_points -= 1;
 	obj_player.is_invencible = true;
 }

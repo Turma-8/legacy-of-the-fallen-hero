@@ -6,21 +6,9 @@ if (mouse_x > x && mouse_x < x + self.sprite_width &&
 	image_index = 1;
     // Verifica se o botão foi clicado
     if (mouse_check_button_pressed(mb_left)) {
-		//Ativa a função do botão
-		switch(button_function){
-			case "newgame":
-				room_goto(rm_room_1_1);
-				break;
-			case "continue":
-				load_game();
-				break;
-			case "endgame":
-				game_end();
-				break;
-			default:
-				show_message("Botão sem função definida.");
-				break;
-		}
+		audio_play_sound(sound_effect,1,false);
+		//Ativa a função do botão depois de 1 segundo
+		alarm[0] = 30;
     }
 } else {
     button_hover = false;

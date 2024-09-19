@@ -4,9 +4,8 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_mob",
@@ -67,6 +66,12 @@
     {"$GMObjectProperty":"v1","%Name":"sprite_idle_left","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"sprite_idle_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"death_sound","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"death_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_hit","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"hitted_sound","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"hitted_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_hit","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

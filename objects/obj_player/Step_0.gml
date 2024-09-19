@@ -1,5 +1,22 @@
 show_debug_message(alarm[2])
 
+//Mata o personagem caso a vida esteja zerada
+if(health_points <= 0){
+	sprite_index = spr_death;
+	if (image_index >= image_number - 1) {
+		visible = false;
+	}
+	can_move = false;
+	if(alarm[3] == -1){
+		alarm[3] = 240; // Aguarda 4 segundos para reininciar o jogo
+		audio_stop_all();
+		audio_play_sound(snd_game_over,1,false); // Reproduz a música de game over
+		var _game_over_screen = instance_create_depth(0,0,-1,obj_message); // Exibe a mensagem de game over
+		_game_over_screen.sprite_index = spr_death_message_ptbr;
+	}
+}
+
+//Deixa o personagem com um popup de transparência caso seja acertado.
 if(is_invencible){
 	// Atualiza a transparência (alpha) baseado na direção
 	image_alpha += alpha_direction * alpha_speed;
@@ -99,6 +116,7 @@ if(can_move){
 
 	//Troca de Sprites quando o Personagem estiver em combate
 	if(_attack){
+		health_points--;
 		can_move = false;
 		alarm[1] = attack_cooldown;
 		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "sword");
