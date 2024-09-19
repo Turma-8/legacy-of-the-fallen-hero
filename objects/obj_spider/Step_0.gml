@@ -5,11 +5,11 @@ var _target_x = obj_player.x;
 var _target_y = obj_player.y;
 var _dist = point_distance(x, y, _target_x, _target_y);
 
-if(can_view == false and alarm[1] == -1){
+if(!obj_player.is_rooted and alarm[1] == -1){
 	alarm[1] = web_cooldown;	
 }
 
-if(obj_player.can_move = false){
+if(obj_player.is_rooted){
 	can_view = true;
 }
 

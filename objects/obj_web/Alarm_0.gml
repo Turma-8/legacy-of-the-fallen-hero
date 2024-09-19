@@ -1,2 +1,2 @@
-obj_player.can_move = true;
+obj_player.is_rooted = false;
 instance_destroy();

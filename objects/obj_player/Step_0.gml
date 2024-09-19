@@ -32,7 +32,7 @@ if(is_invencible){
 	image_alpha = 1;	
 }
 
-if(can_move){
+if(can_move and !is_rooted){
 	
 	//Controles básicos de Movimentação
 	var _left = keyboard_check(ord("A"));
