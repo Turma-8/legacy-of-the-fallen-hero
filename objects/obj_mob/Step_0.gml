@@ -5,9 +5,20 @@ var _target_x = obj_player.x;
 var _target_y = obj_player.y;
 var _dist = point_distance(x, y, _target_x, _target_y);
 
+// Tempo definido para deixar o mob invencível após ser atingido
+if(is_hitted){
+	if(alarm[10] == -1)
+		alarm[10] = 15;
+	// Se atingir o valor máximo ou mínimo, inverte a direção
+	if (image_alpha >= 0.1) {
+	    image_alpha -= 0.01;  // Diminui a transparência
+	}
+}
+
+// Permitindo dano de contato do mob com o jogador
 if(place_meeting(x,y,obj_player) and !obj_player.is_invencible){
 	audio_play_sound(obj_player.hitted_sound,1,false);
-	obj_player.health_points -= 1;
+	obj_player.health_points -= touch_damage;
 	obj_player.is_invencible = true;
 }
 

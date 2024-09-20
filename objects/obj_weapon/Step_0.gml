@@ -12,8 +12,11 @@ if(weapon_name == "sword"){
 			if(place_meeting(x,y,obj_mob)){
 				var _mob_attacked_id = instance_place(x, y, obj_mob);
 				with (_mob_attacked_id) {
-					audio_play_sound(hitted_sound,1,false);
-					health_points -= 1;
+					if(!is_hitted){
+						audio_play_sound(hitted_sound,1,false);
+						health_points--;
+						is_hitted = true;
+					}
 					if (health_points <= 0) {
 						instance_create_depth(x,y,-1,obj_death);
 						instance_destroy();

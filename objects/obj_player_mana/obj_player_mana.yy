@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ammo",
+  "%Name":"obj_player_mana",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_ammo",
+  "name":"obj_player_mana",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_hud",
@@ -27,6 +26,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
+    {"$GMObjectProperty":"v1","%Name":"points","filters":[],"listItems":[],"multiselect":false,"name":"points","rangeEnabled":true,"rangeMax":99.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"pos_x","filters":[],"listItems":[],"multiselect":false,"name":"pos_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"pos_y","filters":[],"listItems":[],"multiselect":false,"name":"pos_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"life_sprite","filters":[
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_ammo_point",
-    "path":"sprites/spr_player_ammo_point/spr_player_ammo_point.yy",
+    "name":"spr_player_mana_point",
+    "path":"sprites/spr_player_mana_point/spr_player_mana_point.yy",
   },
   "spriteMaskId":null,
   "visible":true,

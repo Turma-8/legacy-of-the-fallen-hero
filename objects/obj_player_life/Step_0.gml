@@ -18,4 +18,4 @@ switch(hp){
 		break;
 }
 
-scr_change_life_sprite();
+scr_change_player_life_sprite();

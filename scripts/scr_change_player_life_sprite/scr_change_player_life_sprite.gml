@@ -1,6 +1,6 @@
-function scr_change_life_sprite(){
+function scr_change_player_life_sprite(){
 	var _hp = obj_player.health_points;
-	with (obj_life) {
+	with (obj_player_life) {
     if (identifier == 5 and hp <= 20) {
         switch(_hp){
 			case 20:
