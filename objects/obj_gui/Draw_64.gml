@@ -8,7 +8,7 @@ if(obj_player.sprite_index != spr_death){
 		draw_text(x,y+5,"Use a investida (com SHIFT)");
 	}
 	draw_text(x,y+25,"Interaja com o bau e outros objetos usando a tecla E");
-	draw_text(x,y+45,"Use o cristal para salvar o jogo manualmente");
+	draw_text(x,y+45,"Use o cristal em salas seguras para salvar o jogo manualmente");
 	draw_text(x,y+65,"Passe pelo portal acima para ver os inimigos do jogo.");
 	draw_text(x,y+85,"Use o botao esquerdo do mouse para atacar com uma espada.");
 	draw_text(x,y+105,"Use o botao direito do mouse para atacar com um arco.");
