@@ -13,4 +13,5 @@ if(obj_player.sprite_index != spr_death){
 	draw_text(x,y+85,"Use o botao esquerdo do mouse para atacar com uma espada.");
 	draw_text(x,y+105,"Use o botao direito do mouse para atacar com um arco.");
 	draw_text(x,y+125,"Use a tecla '1' para atacar com magia.");
+	draw_text(x,y+145,"Esses golpes serao adquiridos com o tempo no projeto final");
 }
