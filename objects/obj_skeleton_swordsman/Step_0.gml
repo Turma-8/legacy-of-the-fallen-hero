@@ -69,6 +69,14 @@ if(point_distance(x,y,obj_player.x,obj_player.y) < attack_range){
 	}
 }
 
+//Para o movimento do inimigo caso seja acertado
+if(is_hitted){
+	if(alarm[5] == -1){
+		path_end();
+		alarm[5] = attack_cooldown;
+	}
+}
+
 // Padrão de movimento caso o mob não persiga o jogador
 if(is_idle) {
 	if(idle_movement != noone){

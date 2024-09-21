@@ -37,7 +37,7 @@ if(can_view){
 }
 
 // Se o mob estiver perseguindo o jogador
-if (is_chasing) {
+if (is_chasing and alarm[5] == -1) {
     // Limpa o caminho anterior
     path_clear_points(path);
 	mp_grid_clear_all(grid);
@@ -59,6 +59,16 @@ if (is_chasing) {
         path_end();
     }
 }
+
+//Para o movimento do inimigo caso seja acertado
+if(is_hitted){
+	if(alarm[5] == -1){
+		path_end();
+		alarm[5] = attack_cooldown;
+	}
+}
+
+show_debug_message(alarm[5]);
 
 // Padrão de movimento caso o mob não persiga o jogador
 if(is_idle) {
