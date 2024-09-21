@@ -10,6 +10,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_right_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_bat",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_down_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_bat",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_left_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_bat",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"idle_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"scr_circle_movement","path":"scripts/scr_circle_movement/scr_circle_movement.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"scr_circle_movement",},
   ],
   "parent":{
     "name":"obj_mobs",
