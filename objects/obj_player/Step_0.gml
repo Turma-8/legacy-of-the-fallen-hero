@@ -122,6 +122,7 @@ if(can_move and !is_rooted){
 		ammo_points--;
 		can_move = false;
 		alarm[1] = bow_cooldown;
+		direction = point_direction(x,y,mouse_x,mouse_y);
 		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "bow", false);
 	}
 	if(can_magic and _magic and can_move and mana_points > 0){
