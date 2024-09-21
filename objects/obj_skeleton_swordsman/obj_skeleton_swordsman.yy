@@ -8,7 +8,7 @@
   "managed":true,
   "name":"obj_skeleton_swordsman",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"health_points","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"health_points","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_up_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_swordsman","path":"sprites/spr_swordsman/spr_swordsman.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_swordsman",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_right_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_swordsman","path":"sprites/spr_swordsman/spr_swordsman.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_swordsman",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_down_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_swordsman","path":"sprites/spr_swordsman/spr_swordsman.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_swordsman",},
