@@ -68,6 +68,10 @@
     {"$GMObjectProperty":"v1","%Name":"sprite_idle_left","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"sprite_idle_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_attack_up","filters":[],"listItems":[],"multiselect":false,"name":"sprite_attack_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_attack_down","filters":[],"listItems":[],"multiselect":false,"name":"sprite_attack_down","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_attack_left","filters":[],"listItems":[],"multiselect":false,"name":"sprite_attack_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sprite_attack_right","filters":[],"listItems":[],"multiselect":false,"name":"sprite_attack_right","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"death_sound","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"death_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_hit","varType":5,},
@@ -75,6 +79,8 @@
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"hitted_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_hit","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"is_hitted","filters":[],"listItems":[],"multiselect":false,"name":"is_hitted","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"attack_cooldown","filters":[],"listItems":[],"multiselect":false,"name":"attack_cooldown","rangeEnabled":true,"rangeMax":300.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"attack_range","filters":[],"listItems":[],"multiselect":false,"name":"attack_range","rangeEnabled":true,"rangeMax":640.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -2,6 +2,7 @@ if(from_enemy and place_meeting(x,y,obj_player)){
 	if(!obj_player.is_invencible){
 		audio_play_sound(obj_player.hitted_sound,1,false);
 		obj_player.health_points -= damage;	
+		obj_player.is_invencible = true;
 	}
 } else if(!from_enemy and place_meeting(x,y,obj_mob)){
 	if(place_meeting(x,y,obj_mob)){

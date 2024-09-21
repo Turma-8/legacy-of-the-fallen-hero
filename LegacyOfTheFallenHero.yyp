@@ -92,6 +92,7 @@
     {"id":{"name":"obj_player_mana","path":"objects/obj_player_mana/obj_player_mana.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_savepoint","path":"objects/obj_savepoint/obj_savepoint.yy",},},
+    {"id":{"name":"obj_skeleton_swordsman","path":"objects/obj_skeleton_swordsman/obj_skeleton_swordsman.yy",},},
     {"id":{"name":"obj_spider","path":"objects/obj_spider/obj_spider.yy",},},
     {"id":{"name":"obj_system","path":"objects/obj_system/obj_system.yy",},},
     {"id":{"name":"obj_teleport","path":"objects/obj_teleport/obj_teleport.yy",},},

@@ -116,24 +116,24 @@ if(can_move and !is_rooted){
 	if(can_attack and _attack){
 		can_move = false;
 		alarm[1] = attack_cooldown;
-		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "sword");
+		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "sword", false);
 	}
 	if(can_shoot and _shoot and can_move and ammo_points > 0){
 		ammo_points--;
 		can_move = false;
 		alarm[1] = bow_cooldown;
-		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "bow");
+		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "bow", false);
 	}
 	if(can_magic and _magic and can_move and mana_points > 0){
 		mana_points--;
 		can_move = false;
 		alarm[1] = magic_cooldown;
-		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "staff");
+		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "staff", false);
 	}
 	if(can_block and _block and can_move){
 		audio_play_sound(snd_shield,1,false);
 		can_move = false;
-		scr_change_combat_sprite(self, [sprite_block_up, sprite_block_right, sprite_block_down, sprite_block_left], "shield");
+		scr_change_combat_sprite(self, [sprite_block_up, sprite_block_right, sprite_block_down, sprite_block_left], "shield", false);
 		alarm[1] = block_cooldown;
 	}
 }

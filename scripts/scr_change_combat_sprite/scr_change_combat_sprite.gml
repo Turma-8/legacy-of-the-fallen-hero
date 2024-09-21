@@ -1,8 +1,9 @@
-function scr_change_combat_sprite(_object, _combat_sprites, _weapon_name){
+function scr_change_combat_sprite(_object, _combat_sprites, _weapon_name, _from_enemy){
 	var _weapon = instance_create_layer(_object.x, _object.y, "Instances", obj_weapon);
 	_weapon.depth = -1;
 	_weapon.direction = _object.direction;
-	_weapon.weapon_name = _weapon_name; 
+	_weapon.weapon_name = _weapon_name;
+	_weapon.used_by_enemy = _from_enemy;
 	if((_object.direction >= 45) and (_object.direction <= 135)){
 		_object.sprite_index = _combat_sprites[0];
 		_weapon.depth = 1;

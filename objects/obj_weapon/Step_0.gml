@@ -4,12 +4,13 @@ if(weapon_name == "sword"){
 		audio_play_sound(snd_sword,1,false);
 		damage = 1;
 		if(used_by_enemy){
-			if(place_meeting(x,y,obj_player)){
+			if(place_meeting(x,y,obj_player) and !obj_player.is_invencible){
 				audio_play_sound(obj_player.hitted_sound,1,false);
-				obj_player.health_points -= damage;	
+				obj_player.health_points -= damage;
+				obj_player.is_invencible = true;
 			}
 		} else {
-			if(place_meeting(x,y,obj_mob)){
+			if(place_meeting(x,y,obj_mob) and !used_by_enemy){
 				var _mob_attacked_id = instance_place(x, y, obj_mob);
 				with (_mob_attacked_id) {
 					if(!is_hitted){
