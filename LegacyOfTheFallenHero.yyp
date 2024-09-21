@@ -183,6 +183,7 @@
     {"id":{"name":"spr_ice_boss","path":"sprites/spr_ice_boss/spr_ice_boss.yy",},},
     {"id":{"name":"spr_lava_boss_life_point","path":"sprites/spr_lava_boss_life_point/spr_lava_boss_life_point.yy",},},
     {"id":{"name":"spr_life_potion","path":"sprites/spr_life_potion/spr_life_potion.yy",},},
+    {"id":{"name":"spr_main_menu","path":"sprites/spr_main_menu/spr_main_menu.yy",},},
     {"id":{"name":"spr_mana_potion","path":"sprites/spr_mana_potion/spr_mana_potion.yy",},},
     {"id":{"name":"spr_mob_down","path":"sprites/spr_mob_down/spr_mob_down.yy",},},
     {"id":{"name":"spr_mob_left","path":"sprites/spr_mob_left/spr_mob_left.yy",},},

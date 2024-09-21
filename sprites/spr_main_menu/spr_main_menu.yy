@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_button_endgame_ptbr",
+  "%Name":"spr_main_menu",
   "bboxMode":0,
-  "bbox_bottom":48,
+  "bbox_bottom":0,
   "bbox_left":0,
-  "bbox_right":139,
+  "bbox_right":0,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0acb97e8-33af-4fc5-80e5-02a9a48e8537","name":"0acb97e8-33af-4fc5-80e5-02a9a48e8537","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1a160e80-4b12-45b6-a66d-7441576831bc","name":"1a160e80-4b12-45b6-a66d-7441576831bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":49,
+  "height":640,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"778ebae7-6193-4a4e-a2dc-3a1dc7462495","blendMode":0,"displayName":"default","isLocked":false,"name":"778ebae7-6193-4a4e-a2dc-3a1dc7462495","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"210de7ee-b1cf-4ea7-8a09-25a2718aa83a","blendMode":0,"displayName":"default","isLocked":false,"name":"210de7ee-b1cf-4ea7-8a09-25a2718aa83a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_button_endgame_ptbr",
+  "name":"spr_main_menu",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_button_endgame_ptbr",
+    "%Name":"spr_main_menu",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_button_endgame_ptbr",
+    "name":"spr_main_menu",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0acb97e8-33af-4fc5-80e5-02a9a48e8537","path":"sprites/spr_button_endgame_ptbr/spr_button_endgame_ptbr.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4ae2f062-c73c-4348-8a6b-9630beb73a75","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a160e80-4b12-45b6-a66d-7441576831bc","path":"sprites/spr_main_menu/spr_main_menu.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"61fb4b04-9ca5-41ef-a5f5-06913965db03","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":140,
+  "width":640,
 }
