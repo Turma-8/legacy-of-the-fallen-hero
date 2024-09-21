@@ -10,6 +10,9 @@ if(weapon_name == "sword"){
 				obj_player.is_invencible = true;
 			}
 		} else {
+			//Aumentando a espada do jogador (olha a malícia)
+			image_xscale += 0.035;
+			image_yscale += 0.035;
 			if(place_meeting(x,y,obj_mob) and !used_by_enemy){
 				var _mob_attacked_id = instance_place(x, y, obj_mob);
 				with (_mob_attacked_id) {
