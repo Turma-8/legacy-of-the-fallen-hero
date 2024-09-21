@@ -5,6 +5,7 @@ switch(button_function){
 				break;
 			case "continue":
 				load_game("save.dat");
+				instance_destroy(obj_music_box);
 				break;
 			case "endgame":
 				game_end();
