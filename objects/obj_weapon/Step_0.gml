@@ -4,6 +4,7 @@ if(weapon_name == "sword"){
 		audio_play_sound(snd_sword,1,false);
 		damage = 1;
 		if(used_by_enemy){
+			image_blend = c_gray;
 			if(place_meeting(x,y,obj_player) and !obj_player.is_invencible){
 				audio_play_sound(obj_player.hitted_sound,1,false);
 				obj_player.health_points -= damage;
