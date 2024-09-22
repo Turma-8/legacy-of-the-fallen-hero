@@ -266,8 +266,8 @@
     {"roomId":{"name":"rm_room_1_16","path":"rooms/rm_room_1_16/rm_room_1_16.yy",},},
     {"roomId":{"name":"rm_room_1_17","path":"rooms/rm_room_1_17/rm_room_1_17.yy",},},
     {"roomId":{"name":"rm_room_1_18","path":"rooms/rm_room_1_18/rm_room_1_18.yy",},},
-    {"roomId":{"name":"rm_room_template","path":"rooms/rm_room_template/rm_room_template.yy",},},
     {"roomId":{"name":"rm_room_1_19","path":"rooms/rm_room_1_19/rm_room_1_19.yy",},},
+    {"roomId":{"name":"rm_room_template","path":"rooms/rm_room_template/rm_room_template.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
