@@ -1,10 +1,12 @@
 //Controles que chamam a Interface Gráfica de Usuário
 var _pause = keyboard_check_pressed(vk_escape);
 
-if(_pause and obj_system.pause == true){
+if(_pause and obj_system.pause == true and instance_number(obj_mob) == 0){
 	obj_system.pause = false;
-} else if(_pause and obj_system.pause == false){
+} else if(_pause and obj_system.pause == false and instance_number(obj_mob) == 0){
 	obj_system.pause = true;
+} else if(_pause and obj_system.pause == false and instance_number(obj_mob) > 0){
+	show_message("Elimine todos os inimigos para exibir o menu de pausa");	
 }
 
 //Pausa todos os áudios e paralisa o visual e lógica do obj_player

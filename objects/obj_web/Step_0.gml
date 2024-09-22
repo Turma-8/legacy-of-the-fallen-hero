@@ -1,3 +1,13 @@
+//Pausa todo o visual e lógica do objeto
+if(obj_system.pause){
+	image_speed = 0;
+	speed = 0;
+	exit;
+} else {
+	image_speed = 1;
+	speed = velocity;
+}
+
 if(place_meeting(x,y,obj_player)){
 	speed = 0;
 	image_index = 6;

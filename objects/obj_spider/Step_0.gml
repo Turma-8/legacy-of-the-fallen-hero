@@ -1,4 +1,11 @@
 /// @description Evento executado à todo momento
+//Pausa todo o visual e lógica do objeto
+if(obj_system.pause){
+	image_speed = 0;
+	exit;
+} else {
+	image_speed = 1;
+}
 
 // Verifica se o jogador está dentro do raio de visão do mob
 var _target_x = obj_player.x;
