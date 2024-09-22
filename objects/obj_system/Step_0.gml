@@ -14,3 +14,9 @@ if (array_contains(passed_rooms, _current_room_name)) {
         instance_destroy();
 	}
 }
+
+if(pause){
+	window_set_cursor(cr_arrow);
+} else {
+	window_set_cursor(cr_none);
+}

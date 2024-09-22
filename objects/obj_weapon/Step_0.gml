@@ -1,3 +1,11 @@
+//Pausa todo o visual e lógica do objeto
+if(obj_system.pause){
+	image_speed = 0;
+	exit;
+} else {
+	image_speed = 1;
+}
+
 sprite_index = sprite;	
 
 if(weapon_name == "sword"){

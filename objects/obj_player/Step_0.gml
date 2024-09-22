@@ -1,3 +1,22 @@
+//Controles que chamam a Interface Gráfica de Usuário
+var _pause = keyboard_check_pressed(vk_escape);
+
+if(_pause and obj_system.pause == true){
+	obj_system.pause = false;
+} else if(_pause and obj_system.pause == false){
+	obj_system.pause = true;
+}
+
+//Pausa todos os áudios e paralisa o visual e lógica do obj_player
+if(obj_system.pause){
+	audio_pause_all();
+	image_speed = 0;
+	exit;
+} else {
+	image_speed = 1;
+	audio_resume_all();	
+}
+
 //Mata o personagem caso a vida esteja zerada
 if(health_points <= 0){
 	sprite_index = spr_death;

@@ -1,3 +1,13 @@
+//Pausa todo o visual e lógica do objeto
+if(obj_system.pause){
+	image_speed = 0;
+	speed = 0;
+	exit;
+} else {
+	speed = velocity;
+	image_speed = 1;
+}
+
 if(from_enemy and place_meeting(x,y,obj_player)){
 	if(!obj_player.is_invencible){
 		audio_play_sound(obj_player.hitted_sound,1,false);
