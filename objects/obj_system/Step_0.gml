@@ -17,6 +17,12 @@ if (array_contains(passed_rooms, _current_room_name)) {
 
 if(pause){
 	window_set_cursor(cr_arrow);
+	instance_create_depth(250,300,-3,obj_exit_button);
+	
 } else {
+	if(instance_exists(obj_exit_button)){
+		instance_destroy(obj_exit_button);
+		draw_set_alpha(1);
+	}
 	window_set_cursor(cr_none);
 }
