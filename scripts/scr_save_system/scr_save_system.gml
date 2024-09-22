@@ -5,9 +5,11 @@ function save_game(_data){
 }
 
 function load_game(_data){
-	try {
+	if(!file_exists(_data)){
+		show_message("Não existem arquivos salvos na sua jornada.");
+		return false;
+	} else {
 		game_load(_data);
-	} catch(_exception) {
-		game_load("menu.dat");	
+		return true;
 	}
 }
