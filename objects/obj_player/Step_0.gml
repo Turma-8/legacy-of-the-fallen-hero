@@ -9,6 +9,12 @@ if(_pause and obj_system.pause == true and instance_number(obj_mob) == 0){
 	show_message("Elimine todos os inimigos para exibir o menu de pausa");	
 }
 
+if(instance_number(obj_player_aim) == 0 and ammo_points > 0){
+	instance_create_depth(x,y,-2,obj_player_aim);
+} else if(instance_number(obj_player_aim) > 0 and ammo_points == 0) {
+	instance_destroy(obj_player_aim);	
+}
+
 //Pausa todos os áudios e paralisa o visual e lógica do obj_player
 if(obj_system.pause){
 	audio_pause_all();
