@@ -1,6 +1,7 @@
 // Cria a lista
 rooms = [];
 passed_rooms = [];
+opened_doors_rooms = [];
 pause = false;
 change_music = true;
 

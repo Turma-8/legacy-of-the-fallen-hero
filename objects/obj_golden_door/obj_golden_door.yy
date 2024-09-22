@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall_2",
+  "%Name":"obj_golden_door",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_wall_2",
+  "name":"obj_golden_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_walls",
-    "path":"folders/Objects/obj_walls.yy",
+    "name":"obj_doors",
+    "path":"folders/Objects/obj_doors.yy",
   },
   "parentObjectId":{
-    "name":"obj_wall",
-    "path":"objects/obj_wall/obj_wall.yy",
+    "name":"obj_wall_2",
+    "path":"objects/obj_wall_2/obj_wall_2.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,9 +34,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall_2",
-    "path":"sprites/spr_wall_2/spr_wall_2.yy",
+    "name":"spr_wall_3",
+    "path":"sprites/spr_wall_3/spr_wall_3.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

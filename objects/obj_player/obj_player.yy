@@ -106,6 +106,8 @@
     {"$GMObjectProperty":"v1","%Name":"hitted_sound","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"hitted_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"snd_hitted","path":"sounds/snd_hitted/snd_hitted.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"snd_hitted","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"golden_keys","filters":[],"listItems":[],"multiselect":false,"name":"golden_keys","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"boss_keys","filters":[],"listItems":[],"multiselect":false,"name":"boss_keys","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

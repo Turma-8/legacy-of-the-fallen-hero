@@ -27,6 +27,7 @@
     {"name":"inst_15A3795E","path":"rooms/rm_selection_phase_1/rm_selection_phase_1.yy",},
     {"name":"inst_55B2B6C2","path":"rooms/rm_selection_phase_1/rm_selection_phase_1.yy",},
     {"name":"inst_2780CE51","path":"rooms/rm_selection_phase_1/rm_selection_phase_1.yy",},
+    {"name":"inst_57067D0A","path":"rooms/rm_selection_phase_1/rm_selection_phase_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -78,6 +79,7 @@
         {"$GMRInstance":"v1","%Name":"inst_2780CE51","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2780CE51","objectId":{"name":"obj_music_box","path":"objects/obj_music_box/obj_music_box.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_music_box","path":"objects/obj_music_box/obj_music_box.yy",},"propertyId":{"name":"music_to_play","path":"objects/obj_music_box/obj_music_box.yy",},"resource":{"name":"snd_main_menu","path":"sounds/snd_main_menu/snd_main_menu.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_main_menu",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":544.0,},
+        {"$GMRInstance":"v1","%Name":"inst_57067D0A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_57067D0A","objectId":{"name":"obj_golden_door","path":"objects/obj_golden_door/obj_golden_door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.0,"x":288.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Ground","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":20,"TileCompressedData":[
           -5,-2147483648,-4,0,-2,51,-9,-2147483648,-9,0,-2,51,-8,0,-2,-2147483648,1,27,-6,28,4,30,51,51,27,-6,
