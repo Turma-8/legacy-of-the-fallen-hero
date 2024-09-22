@@ -3,9 +3,9 @@ var _pause = keyboard_check_pressed(vk_escape);
 
 if(_pause and instance_exists(obj_system) and obj_system.pause == true and instance_number(obj_mob) == 0){
 	obj_system.pause = false;
-} else if(_pause and obj_system.pause == false and instance_number(obj_mob) == 0){
+} else if(_pause and instance_exists(obj_system) and obj_system.pause == false and instance_number(obj_mob) == 0){
 	obj_system.pause = true;
-} else if(_pause and obj_system.pause == false and instance_number(obj_mob) > 0){
+} else if(_pause and instance_exists(obj_system) and obj_system.pause == false and instance_number(obj_mob) > 0){
 	show_message("Elimine todos os inimigos para exibir o menu de pausa");	
 }
 
