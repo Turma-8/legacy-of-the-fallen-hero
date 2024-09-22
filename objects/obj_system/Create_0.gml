@@ -2,6 +2,7 @@
 rooms = [];
 passed_rooms = [];
 pause = false;
+change_music = true;
 
 // Loop através de todas as salas do jogo
 for (var _i = 0; _i < room_last; _i++) {
