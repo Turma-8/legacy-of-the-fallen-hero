@@ -1,5 +1,5 @@
 //Pausa todo o visual e lógica do objeto
-if(obj_system.pause){
+if(instance_exists(obj_system) and obj_system.pause){
 	image_speed = 0;
 	speed = 0;
 	exit;
