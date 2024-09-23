@@ -32,10 +32,11 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"stored_item","filters":[],"listItems":[
         "\"sword\"",
-        "\"bow\"",
+        "\"bow_attack_right\"",
+        "\"staff_attack_right\"",
         "\"shield\"",
-        "\"mana_potion\"",
-        "\"life_potion\"",
+        "\"player_mana_point\"",
+        "\"player_life_point\"",
         "\"arrow\"",
         "\"golden_key\"",
         "\"purple_key\"",

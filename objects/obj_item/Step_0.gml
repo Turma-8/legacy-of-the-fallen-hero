@@ -5,6 +5,9 @@ switch(sprite_get_name(sprite_index)){
 	case "spr_player_life_point":
 		image_index = 0;
 		break;	
+	case "spr_bow_attack_right":
+		image_index = 0;
+		break;
 }
 
 if(place_meeting(x,y,obj_player)){
@@ -18,6 +21,16 @@ if(place_meeting(x,y,obj_player)){
 			show_message("Agora você pode se impulsionar (com a tecla SHIFT).");
 			obj_player.can_dash = true;
 			break;
+		case "spr_bow_attack_right":
+			image_speed = 0;
+			show_message("Agora você pode atirar flechas (com o botão direito do mouse).");
+			obj_player.can_shoot = true;
+			break;
+		case "spr_staff_attack_right":
+			image_speed = 0;
+			show_message("Agora você pode defender-se com um escudo mágico (use espaço).");
+			obj_player.can_block = true;
+			break;
 		case "spr_golden_key":
 			show_message("Você adquiriu uma chave dourada.");
 			obj_player.golden_keys++;
@@ -25,14 +38,6 @@ if(place_meeting(x,y,obj_player)){
 		case "spr_purple_key":
 			show_message("Você adquiriu uma chave púrpura.");
 			obj_player.boss_keys++;
-			break;
-		case "spr_bow_attack_right":
-			show_message("Agora você pode atirar flechas (com o botão direito do mouse).");
-			obj_player.can_shoot = true;
-			break;
-		case "spr_staff_attack_right":
-			show_message("Agora você pode usar magias (com a tecla '1').");
-			obj_player.can_magic = true;
 			break;
 		case "spr_arrow":
 			if(obj_player.ammo_points < 99)

@@ -2,6 +2,7 @@
 rooms = [];
 passed_rooms = [];
 opened_doors_rooms = [];
+opened_chests = [];
 pause = false;
 change_music = true;
 
