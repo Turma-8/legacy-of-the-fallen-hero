@@ -51,6 +51,10 @@ if(image_index == 1) {
 		}
 		break;
 	case "bow":
+		if(direction >= 45 and direction <= 135){
+			depth = 100;
+			y -= 10;
+		}
 		audio_play_sound(snd_bow,1,false);
 		audio_play_sound(snd_arrow,1,false);
 		var _arrow = instance_create_layer(x,y,"Instances",obj_arrow);
