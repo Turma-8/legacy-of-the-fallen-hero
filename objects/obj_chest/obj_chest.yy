@@ -32,6 +32,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"stored_item","filters":[],"listItems":[
         "\"sword\"",
+        "\"boots\"",
         "\"bow_attack_right\"",
         "\"staff_attack_right\"",
         "\"shield\"",
