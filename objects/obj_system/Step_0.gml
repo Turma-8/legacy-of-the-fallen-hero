@@ -15,11 +15,33 @@ if (array_contains(passed_rooms, _current_room_name)) {
 	}
 }
 
+if(room == rm_selection_phase_3 and !audio_is_playing(snd_lava_dungeon)){
+	audio_stop_sound(obj_music_box.music_to_play);
+	obj_music_box.music_to_play = snd_lava_dungeon;
+}
+
+if(room == rm_selection_phase_2 and !audio_is_playing(snd_ice_dungeon)){
+	audio_stop_sound(obj_music_box.music_to_play);
+	obj_music_box.music_to_play = snd_ice_dungeon;
+}
+
+if(room == rm_selection_phase_1 and !audio_is_playing(snd_normal_dungeon)){
+	audio_stop_sound(obj_music_box.music_to_play);
+	obj_music_box.music_to_play = snd_normal_dungeon;
+}
+
+if(room == rm_ice_room_18 and !audio_is_playing(snd_ice_boss)){
+	audio_stop_sound(obj_music_box.music_to_play);
+	obj_music_box.music_to_play = snd_ice_boss;
+}
+
 if(pause){
+	audio_stop_all();
 	window_set_cursor(cr_arrow);
 	instance_create_depth(250,300,-3,obj_exit_button);
 	
 } else {
+	audio_resume_all();
 	if(instance_exists(obj_exit_button)){
 		instance_destroy(obj_exit_button);
 		draw_set_alpha(1);

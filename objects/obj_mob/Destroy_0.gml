@@ -1,6 +1,11 @@
 /// @description Evento executado ao objeto ser destruído
 audio_play_sound(death_sound, 1, false);
 
+// Evita dropar itens caso esteja numa sala concluída
+if (array_contains(obj_system.passed_rooms, room_get_name(room))) {
+    exit;
+}
+
 // Dropa (ou não) um item aleatório
 var _random_item = irandom(4);
 switch(_random_item){

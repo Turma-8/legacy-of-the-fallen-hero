@@ -1,16 +1,22 @@
 //Controles que chamam a Interface Gráfica de Usuário
 var _pause = keyboard_check_pressed(vk_escape);
 
-if(_pause and obj_system.pause == true and instance_number(obj_mob) == 0){
+if(_pause and instance_exists(obj_system) and obj_system.pause == true and instance_number(obj_mob) == 0){
 	obj_system.pause = false;
-} else if(_pause and obj_system.pause == false and instance_number(obj_mob) == 0){
+} else if(_pause and instance_exists(obj_system) and obj_system.pause == false and instance_number(obj_mob) == 0){
 	obj_system.pause = true;
-} else if(_pause and obj_system.pause == false and instance_number(obj_mob) > 0){
+} else if(_pause and instance_exists(obj_system) and obj_system.pause == false and instance_number(obj_mob) > 0){
 	show_message("Elimine todos os inimigos para exibir o menu de pausa");	
 }
 
+if(instance_number(obj_player_aim) == 0 and ammo_points > 0 and can_shoot){
+	instance_create_depth(x,y,-2,obj_player_aim);
+} else if(instance_number(obj_player_aim) > 0 and ammo_points == 0) {
+	instance_destroy(obj_player_aim);	
+}
+
 //Pausa todos os áudios e paralisa o visual e lógica do obj_player
-if(obj_system.pause){
+if(instance_exists(obj_system) and obj_system.pause){
 	audio_pause_all();
 	image_speed = 0;
 	exit;
@@ -155,6 +161,9 @@ if(can_move and !is_rooted){
 	if(can_block and _block and can_move){
 		audio_play_sound(snd_shield,1,false);
 		can_move = false;
+		is_invencible = true;
+		if(is_rooted)
+			is_rooted = false;
 		scr_change_combat_sprite(self, [sprite_block_up, sprite_block_right, sprite_block_down, sprite_block_left], "shield", false);
 		alarm[1] = block_cooldown;
 	}

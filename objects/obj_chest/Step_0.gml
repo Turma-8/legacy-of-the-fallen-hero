@@ -1,9 +1,13 @@
+var _was_opened = array_contains(obj_system.opened_chests, id);
+
+is_open = _was_opened;
+
 if(!is_open){
 	image_index = 0;
 	if(place_meeting(x + obj_player.velocity, y + obj_player.velocity, obj_player)){
 		if(keyboard_check(ord("E"))){
 			audio_play_sound(snd_open_chest, 1, false);
-			is_open = true;
+			array_push(obj_system.opened_chests, id);
 			switch(stored_item){
 				case "":
 					show_message("Não existe item nesse baú");

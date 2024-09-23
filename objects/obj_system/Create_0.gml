@@ -1,7 +1,10 @@
 // Cria a lista
 rooms = [];
 passed_rooms = [];
+opened_doors_rooms = [];
+opened_chests = [];
 pause = false;
+change_music = true;
 
 // Loop através de todas as salas do jogo
 for (var _i = 0; _i < room_last; _i++) {

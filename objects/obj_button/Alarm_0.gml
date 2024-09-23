@@ -1,6 +1,6 @@
 switch(button_function){
 			case "newgame":
-				room_goto(rm_room_1_1);
+				room_goto(rm_selection_phase_1);
 				window_set_cursor(cr_none);
 				break;
 			case "continue":
