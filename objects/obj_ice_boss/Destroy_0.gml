@@ -9,3 +9,4 @@ show_message("Você está mais perto de libertar o reino.");
 mp_grid_destroy(grid);
 path_delete(path);
 
+room_goto(rm_selection_phase_1);

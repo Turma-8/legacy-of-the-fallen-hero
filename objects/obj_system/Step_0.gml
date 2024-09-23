@@ -30,6 +30,11 @@ if(room == rm_selection_phase_1 and !audio_is_playing(snd_normal_dungeon)){
 	obj_music_box.music_to_play = snd_normal_dungeon;
 }
 
+if(room == rm_ice_room_18 and !audio_is_playing(snd_ice_boss)){
+	audio_stop_sound(obj_music_box.music_to_play);
+	obj_music_box.music_to_play = snd_ice_boss;
+}
+
 if(pause){
 	audio_stop_all();
 	window_set_cursor(cr_arrow);
