@@ -35,7 +35,6 @@
         "\"boots\"",
         "\"bow_attack_right\"",
         "\"staff_attack_right\"",
-        "\"shield\"",
         "\"player_mana_point\"",
         "\"player_life_point\"",
         "\"arrow\"",
