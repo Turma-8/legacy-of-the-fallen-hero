@@ -12,6 +12,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_down_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_ice_boss","path":"sprites/spr_ice_boss/spr_ice_boss.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_ice_boss",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_left_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_ice_boss","path":"sprites/spr_ice_boss/spr_ice_boss.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_ice_boss",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"health_points","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"touch_damage","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
   ],
   "parent":{
     "name":"obj_mobs",

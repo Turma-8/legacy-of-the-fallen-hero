@@ -16,7 +16,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_down_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_shieldsman_right","path":"sprites/spr_shieldsman_right/spr_shieldsman_right.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_shieldsman_right",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_left_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_shieldsman_left","path":"sprites/spr_shieldsman_left/spr_shieldsman_left.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_shieldsman_left",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"attack_range","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"42",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"attack_cooldown","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"attack_cooldown","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"300",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"touch_damage","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
     "name":"obj_mobs",

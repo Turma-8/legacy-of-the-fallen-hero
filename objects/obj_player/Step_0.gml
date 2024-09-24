@@ -140,7 +140,6 @@ if(can_move and !is_rooted){
 	//Troca de Sprites quando o Personagem estiver em combate
 	if(can_attack and _attack){
 		can_move = false;
-		health_points--;
 		alarm[1] = attack_cooldown;
 		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "sword", false);
 	}

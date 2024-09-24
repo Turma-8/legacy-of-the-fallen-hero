@@ -14,7 +14,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_down_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_swordsman_down","path":"sprites/spr_swordsman_down/spr_swordsman_down.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_swordsman_down",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_left_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_swordsman_left","path":"sprites/spr_swordsman_left/spr_swordsman_left.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_swordsman_left",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"attack_range","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"42",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"attack_cooldown","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"attack_cooldown","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"180",},
   ],
   "parent":{
     "name":"obj_mobs",
