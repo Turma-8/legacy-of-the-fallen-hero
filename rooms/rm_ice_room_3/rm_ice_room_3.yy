@@ -27,6 +27,7 @@
     {"name":"inst_22738708","path":"rooms/rm_ice_room_3/rm_ice_room_3.yy",},
     {"name":"inst_72A1E62C","path":"rooms/rm_ice_room_3/rm_ice_room_3.yy",},
     {"name":"inst_1115F9C1","path":"rooms/rm_ice_room_3/rm_ice_room_3.yy",},
+    {"name":"inst_296BE221","path":"rooms/rm_ice_room_3/rm_ice_room_3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -72,6 +73,7 @@
         {"$GMRInstance":"v1","%Name":"inst_1115F9C1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1115F9C1","objectId":{"name":"obj_golden_chest","path":"objects/obj_golden_chest/obj_golden_chest.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_wooden_chest","path":"objects/obj_wooden_chest/obj_wooden_chest.yy",},"propertyId":{"name":"stored_item","path":"objects/obj_wooden_chest/obj_wooden_chest.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"golden_key\"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":576.0,},
+        {"$GMRInstance":"v1","%Name":"inst_296BE221","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_296BE221","objectId":{"name":"obj_mimic","path":"objects/obj_mimic/obj_mimic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Ground","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":20,"TileCompressedData":[
           -5,-2147483648,-4,0,-2,67,-9,-2147483648,-9,0,-2,67,-8,0,-2,-2147483648,1,43,-6,44,4,46,44,44,43,-6,

@@ -114,11 +114,11 @@ if(can_move and !is_rooted){
 		_yspeed = velocity * (_down - _up);
 	}
 
-	if(place_meeting(x + _xspeed, y, obj_wall)){
+	if(place_meeting(x + _xspeed, y, obj_wall) or (place_meeting(x + _xspeed, y, obj_mimic) and !obj_mimic.can_view)){
 		_xspeed = 0;	
 	}
 
-	if(place_meeting(x, y + _yspeed, obj_wall)){
+	if(place_meeting(x, y + _yspeed, obj_wall) or (place_meeting(x, y + _yspeed, obj_mimic) and !obj_mimic.can_view)){
 		_yspeed = 0;	
 	}
 
