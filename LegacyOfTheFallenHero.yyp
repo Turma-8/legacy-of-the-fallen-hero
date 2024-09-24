@@ -155,6 +155,7 @@
     {"id":{"name":"snd_bat_death","path":"sounds/snd_bat_death/snd_bat_death.yy",},},
     {"id":{"name":"snd_bow","path":"sounds/snd_bow/snd_bow.yy",},},
     {"id":{"name":"snd_confirmation","path":"sounds/snd_confirmation/snd_confirmation.yy",},},
+    {"id":{"name":"snd_dash","path":"sounds/snd_dash/snd_dash.yy",},},
     {"id":{"name":"snd_deny","path":"sounds/snd_deny/snd_deny.yy",},},
     {"id":{"name":"snd_falling_rock","path":"sounds/snd_falling_rock/snd_falling_rock.yy",},},
     {"id":{"name":"snd_final_boss","path":"sounds/snd_final_boss/snd_final_boss.yy",},},

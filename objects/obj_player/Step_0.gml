@@ -99,6 +99,7 @@ if(can_move and !is_rooted){
 	}
 
 	if(can_dash && _dash && alarm[0] == -1){
+		audio_play_sound(snd_dash,1,false);
 		can_dash = false;
 		alarm[0] = dash_cooldown;
 	}
