@@ -15,6 +15,7 @@ if(!_opened_door and !instance_exists(obj_mob)){
 	if(place_meeting(x + obj_player.velocity, y + obj_player.velocity, obj_player)){
 		if(keyboard_check(ord("E")) and obj_player.final_boss_key > 1){
 			image_index = 1;
+			audio_play_sound(snd_unlock_door,1,false);
 			obj_player.y -= 5;
 			obj_player.final_boss_key--;
 			array_push(obj_system.opened_doors_rooms, room_get_name(room));
