@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall_5",
-    "path":"sprites/spr_wall_5/spr_wall_5.yy",
+    "name":"spr_green_door",
+    "path":"sprites/spr_green_door/spr_green_door.yy",
   },
   "spriteMaskId":null,
   "visible":true,

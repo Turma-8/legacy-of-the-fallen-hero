@@ -34,8 +34,6 @@ if(health_points <= 0){
 	can_move = false;
 	if(alarm[3] == -1){
 		alarm[3] = 240; // Aguarda 4 segundos para reininciar o jogo
-		audio_stop_all();
-		audio_play_sound(snd_game_over,1,false); // Reproduz a música de game over
 		var _game_over_screen = instance_create_depth(0,0,-10,obj_message); // Exibe a mensagem de game over
 		_game_over_screen.sprite_index = spr_death_message_ptbr;
 	}
@@ -142,6 +140,7 @@ if(can_move and !is_rooted){
 	//Troca de Sprites quando o Personagem estiver em combate
 	if(can_attack and _attack){
 		can_move = false;
+		health_points--;
 		alarm[1] = attack_cooldown;
 		scr_change_combat_sprite(self, [sprite_attack_up, sprite_attack_right, sprite_attack_down, sprite_attack_left], "sword", false);
 	}

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall_4",
-    "path":"sprites/spr_wall_4/spr_wall_4.yy",
+    "name":"spr_purple_door",
+    "path":"sprites/spr_purple_door/spr_purple_door.yy",
   },
   "spriteMaskId":null,
   "visible":true,

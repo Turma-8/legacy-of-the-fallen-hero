@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall_3",
-    "path":"sprites/spr_wall_3/spr_wall_3.yy",
+    "name":"spr_wooden_door",
+    "path":"sprites/spr_wooden_door/spr_wooden_door.yy",
   },
   "spriteMaskId":null,
   "visible":true,
