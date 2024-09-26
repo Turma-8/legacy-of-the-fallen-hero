@@ -40,6 +40,10 @@ if(obj_player.visible = false and !audio_is_playing(snd_game_over)){
 	obj_music_box.music_to_play = snd_game_over;
 }
 
+if(obj_player.visible = true and audio_is_playing(snd_game_over)){
+	audio_stop_sound(snd_game_over);
+}
+
 if(pause){
 	audio_stop_all();
 	window_set_cursor(cr_arrow);

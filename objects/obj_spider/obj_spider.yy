@@ -15,7 +15,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"sprite_down_movement","path":"objects/obj_mob/obj_mob.yy",},"resource":{"name":"spr_spider_down","path":"sprites/spr_spider_down/spr_spider_down.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_spider_down",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"can_view","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"health_points","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"touch_damage","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mob","path":"objects/obj_mob/obj_mob.yy",},"propertyId":{"name":"touch_damage","path":"objects/obj_mob/obj_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
     "name":"obj_mobs",
