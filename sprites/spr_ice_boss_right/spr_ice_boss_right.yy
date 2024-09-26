@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_ice_boss_right",
-  "bboxMode":0,
+  "bboxMode":1,
   "bbox_bottom":63,
-  "bbox_left":4,
-  "bbox_right":52,
+  "bbox_left":0,
+  "bbox_right":63,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

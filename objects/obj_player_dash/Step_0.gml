@@ -1,4 +1,4 @@
-depth = -10;
+depth = -1;
 
 if(obj_player.alarm[0] == -1 and obj_player.can_dash){
 	visible = true;
