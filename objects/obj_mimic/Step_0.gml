@@ -1,5 +1,10 @@
 /// @description Evento executado à todo momento
 
+// Evento que destrói o mob caso ele esteja numa sala passada.
+if (array_contains(obj_system.passed_rooms, room_get_name(room))) {
+   instance_destroy();
+}
+
 // Verifica se o jogador está dentro do raio de visão do mob
 var _target_x = obj_player.x;
 var _target_y = obj_player.y;

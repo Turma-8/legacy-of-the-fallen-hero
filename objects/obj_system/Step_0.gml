@@ -8,13 +8,6 @@ if (array_contains(rooms, _current_room_name) and !array_contains(passed_rooms, 
     }
 }
 
-//Caso a sala atual esteja na lista de salas completadas, os inimigos são apagados
-if (array_contains(passed_rooms, _current_room_name)) {
-    with (obj_mob) {
-        instance_destroy();
-	}
-}
-
 if(obj_player.visible = true and room == rm_selection_phase_3 and !audio_is_playing(snd_lava_dungeon)){
 	audio_stop_sound(obj_music_box.music_to_play);
 	obj_music_box.music_to_play = snd_lava_dungeon;

@@ -1,4 +1,10 @@
 /// @description Evento executado à todo momento
+
+// Evento que destrói o mob caso ele esteja numa sala passada.
+if (array_contains(obj_system.passed_rooms, room_get_name(room))) {
+   instance_destroy();
+}
+
 //Pausa todo o visual e lógica do objeto
 if(obj_system.pause){
 	image_speed = 0;
